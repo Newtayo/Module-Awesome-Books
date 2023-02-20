@@ -1,0 +1,161 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.awesomeContainer {
+  margin: 1% auto;
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+}
+
+.bookdetails {
+  display: flex;
+  width: 100%;
+  padding-top: 2px;
+}
+
+.remove {
+  margin-left: auto;
+  margin-right: 2%;
+  border: 1px solid black;
+  box-shadow: 2px 2px;
+  padding: 0.2%;
+  font-size: 0.9vw;
+}
+
+.booktitle {
+  font-size: 2vw;
+  margin-left: 5px;
+  font-weight: 100;
+}
+
+.author {
+  font-size: 2vw;
+  margin-left: 5px;
+  font-weight: 100;
+}
+
+.container .bookdetails:nth-child(odd) {
+  background-color: rgb(212, 212, 212);
+}
+
+.booklistdisplay > h1 {
+  text-align: center;
+  margin-bottom: 2%;
+}
+
+.container {
+  border: 2px solid black;
+}
+
+.addingbook {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  margin: 2% auto;
+}
+
+.btn {
+  align-self: flex-end;
+  width: 10%;
+  margin-top: 3%;
+  box-shadow: 2px 2px;
+}
+
+#title {
+  height: 3vh;
+  margin-top: 3%;
+  border: 2px solid black;
+}
+
+#author {
+  height: 3vh;
+  margin-top: 3%;
+  border: 2px solid black;
+}
+
+.addbookSection > h2 {
+  text-align: center;
+  margin-top: 2%;
+}
+
+.contactdetail {
+  width: 80%;
+  margin: 2% auto 0 auto;
+  padding-left: 5%;
+}
+
+.contact {
+  text-align: center;
+  margin-bottom: 3%;
+}
+
+.contactparagraph {
+  width: 50%;
+  margin: 0 auto 1% auto;
+}
+
+.contactcontainer {
+  width: 50%;
+  margin: 0 auto 1% auto;
+  padding-left: 5%;
+}
+
+.footer {
+  width: 70%;
+  border: 2px solid black;
+  margin: 0 auto;
+}
+
+.nav {
+  width: 70%;
+  margin: 0 auto;
+  margin-top: 2%;
+}
+
+.lists {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  height: 6vh;
+  margin: 0 auto;
+  border: 2px solid black;
+  font-size: 1.2vw;
+  padding: 0 7px 0 10px;
+}
+
+.awesome-books {
+  flex: 4;
+}
+
+.list {
+  margin-left: 3%;
+}
+
+.border-r {
+  padding-right: 5px;
+  border-right: 2px solid black;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.date {
+  align-self: flex-end;
+}
+
+.blue {
+  color: blue;
+}
+
+.hide {
+  display: none;
+}
+
+.black {
+  color: black;
+}
