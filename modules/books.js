@@ -6,7 +6,7 @@ export class Books {
     this.id = id;
   }
 }
-export function dynamicbook() {
+const dynamicbook = () => {
   if (localStorage.getItem('links')) {
     bookcollection = JSON.parse(localStorage.getItem('links'));
   } else {
@@ -15,19 +15,19 @@ export function dynamicbook() {
     bookcollection = [book1, book2];
   }
   return bookcollection;
-}
+};
 
-export function updatingstorage(id) {
+const updatingstorage = (id) => {
   localStorage.setItem('links', JSON.stringify(id));
-}
-function bookremoval(id) {
+};
+const bookremoval = (id) => {
   const filtered = bookcollection.filter((elem) => elem.id !== id);
   bookcollection = filtered;
   updatingstorage();
   return this;
-}
+};
 
-export function bookArrangement(data) {
+const bookArrangement = (data) => {
   const ContainerSection = document.querySelector('.container');
   const bookdetails = document.createElement('div');
   bookdetails.className = 'bookdetails';
@@ -48,4 +48,5 @@ export function bookArrangement(data) {
 
     // console.log(bookcollection)
   });
-}
+};
+export { bookArrangement, updatingstorage, dynamicbook };

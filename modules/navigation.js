@@ -1,4 +1,4 @@
-export default function navigation() {
+const navigation = () => {
   const links = document.querySelectorAll('.link');
   const fun = document.querySelectorAll('.fun');
 
@@ -18,4 +18,5 @@ export default function navigation() {
       });
     }
   }));
-}
+};
+export default navigation;
