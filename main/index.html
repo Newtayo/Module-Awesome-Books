@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css" />
+    <title>Awesome Books</title>
+
+</head>
+<body>
+    <nav class="nav">
+        <ul class="lists">
+          <li class="awesome-books "><a href="#" >Awesome Books</a></li>
+          <li class="list border-r link" id="list-books" ><a href="#"class ="fun" id="list">List</a></li>
+          <li class="list border-r link" id="addbooklink"><a href="#" class ="fun"id="addbook">Add Book</a></li>
+          <li class="list link" id="contactlink"><a href="#"class ="fun"id="contact">Contact</a></li>
+        </ul>
+      </nav>
+    <div class="awesomeContainer">
+        <div class="date">Date</div>
+    <section class="booklistdisplay" id="list">
+        <h1> All awesome books</h1>
+        <div class="container">
+
+        </div>
+    </section>
+  
+
+    <section class="addbookSection" id="addbook">
+        <h2>Add a new book</h2>
+        <form  class="addingbook">
+            <input
+          type="text"
+          name="title"
+          placeholder="Book Title"
+          maxlength="30"
+          id="title"
+          required
+        />
+        <input
+          type="text"
+          name="author"
+          placeholder="Book author"
+          maxlength="30"
+          id="author"
+          required
+        />
+        <button class="btn" type="submit" name="Add">Add</button>
+        </form>
+    </section>
+
+    <section class="contactdetail" id="contact">
+        <h2 class="contact">Contact Information</h2>
+        <p class="contactparagraph">Do you have any questions or you just want to say "Hello"?<br>
+          You can reach out to us!
+        </p>
+        <div class="contactcontainer">
+          <ui class="containinfo">
+            <li>Our e-mail: mail@mail.com</li>
+            <li>Our Phone number: +2348120653217</li>
+            <li>Our Address: Microverse head-office</li>
+          </ui>
+        </div>
+      </div>
+      <footer class="footer">
+        <p class="copyright">Copyright<span>...</span></p>
+      </footer>
+    </section>
+</div>
+<script type ="module" src="index.js"></script>
+</body>
+</html>
+ 
