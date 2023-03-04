@@ -10,7 +10,6 @@ const dynamicbook = () => {
   if (localStorage.getItem('links')) {
     bookcollection = JSON.parse(localStorage.getItem('links'));
   }
-
   return bookcollection;
 };
 
