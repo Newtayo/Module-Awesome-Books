@@ -9,11 +9,8 @@ export class Books {
 const dynamicbook = () => {
   if (localStorage.getItem('links')) {
     bookcollection = JSON.parse(localStorage.getItem('links'));
-  } else {
-    const book1 = new Books('Lord of the Rings', 'J.R.R. Tolkien', '1');
-    const book2 = new Books('Don Quixote', 'Miguel de Cervantes', '2');
-    bookcollection = [book1, book2];
   }
+
   return bookcollection;
 };
 
